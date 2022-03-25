@@ -1,6 +1,5 @@
 package demo1;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class printArray {
@@ -11,9 +10,9 @@ public class printArray {
         /*使用面向过程*/
         System.out.print("[");
         for (int i = 0; i < array.length; i++) {
-            if (i == array.length - 1){
+            if (i == array.length - 1) {
                 System.out.println(array[i] + "]");
-            }else {
+            } else {
                 System.out.print(array[i] + " ,");
             }
         }
