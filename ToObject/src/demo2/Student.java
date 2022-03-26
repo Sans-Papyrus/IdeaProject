@@ -21,10 +21,11 @@ public class Student {
         return name;
     }
 
-    public void isMale(boolean gender) {
+    public void setMale(boolean gender){
         male = gender;
     }
-
-    public boolean
+    public boolean isMale() {
+        return male;
+    }
 
 }
