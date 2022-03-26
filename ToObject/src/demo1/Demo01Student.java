@@ -29,12 +29,15 @@ public class Demo01Student {
 
         /*将右侧的字符串，赋值交给stu对象中的name成员变量*/
         stu.name = "张三";
+        /*将右侧的数值，赋值交给stu对象中的age成员变量*/
         stu.age = 19;
         System.out.println(stu.name);
         System.out.println(stu.age);
 
         /*使用对象的成员方法 格式:对象名.方法名();*/
         stu.eat();
+        stu.sleep();
+        stu.study();
 
     }
 }
