@@ -29,8 +29,7 @@ public class Demo03PhoneSame {
 
         System.out.println("=============");
 
-        /*根据Phone类创建一个名为one的对象*/
-        /*格式：类名称 对象名 = new 类名称();*/
+        /*将one对象赋值给two*/
         Phone two = one;
         System.out.println(two.brand);
         System.out.println(two.price);

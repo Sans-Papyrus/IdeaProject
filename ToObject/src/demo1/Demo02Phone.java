@@ -2,6 +2,7 @@ package demo1;
 
 public class Demo02Phone {
     public static void main(String[] args) {
+
         /*根据Phone类创建一个名为one的对象*/
         /*格式：类名称 对象名 = new 类名称();*/
         Phone one = new Phone();
@@ -27,7 +28,7 @@ public class Demo02Phone {
 
         System.out.println("==========");
 
-        /*根据Phone类创建一个名为one的对象*/
+        /*根据Phone类创建一个名为two的对象*/
         /*格式：类名称 对象名 = new 类名称();*/
         Phone two = new Phone();
         System.out.println(two.brand);
